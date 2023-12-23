@@ -16,12 +16,12 @@ class MyDocument extends Document {
             content="ENSIAS Moments are not just captured in photographs; they are imprinted in the minds and hearts of a community that values the pursuit of knowledge, collaboration, and the pursuit of excellence."
           />
           <meta property="og:title" content="ENSIAS Moments" />
-          <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content="ENSIAS Moments" />
-          <meta
+          {/* <meta name="twitter:card" content="summary_large_image" /> */}
+          {/* <meta name="twitter:title" content="ENSIAS Moments" /> */}
+          {/* <meta
             name="twitter:description"
             content="ENSIAS Moments are not just captured in photographs; they are imprinted in the minds and hearts of a community that values the pursuit of knowledge, collaboration, and the pursuit of excellence."
-          />
+          /> */}
         </Head>
         <body className="bg-black antialiased">
           <Main />
