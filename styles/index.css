@@ -3,7 +3,21 @@
 @tailwind utilities;
 
 @supports (font: -apple-system-body) and (-webkit-appearance: none) {
-  img[loading='lazy'] {
+  img[loading="lazy"] {
     clip-path: inset(0.6px);
   }
+}
+/* For WebKit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 8px; /* Set the width of the scrollbar */
+  background-color: black; /* Set the background color of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #f50028; /* Set the color of the scrollbar thumb (the handle) */
+  border-radius: 0px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: white; /* Set the color of the scrollbar track (the area behind the thumb) */
 }
