@@ -45,14 +45,14 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
   return (
     <>
       <Head>
-        <title>Next.js Conf 2022 Photos</title>
+        <title>ENSIAS Moments</title>
         <meta
           property="og:image"
-          content="https://nextjsconf-pics.vercel.app/og-image.png"
+          content="https://res.cloudinary.com/dozcs6owz/image/upload/v1703356969/11aa95b8-b803-4e41-9d7f-724452136aad_swbpnu.png"
         />
         <meta
           name="twitter:image"
-          content="https://nextjsconf-pics.vercel.app/og-image.png"
+          content="https://res.cloudinary.com/dozcs6owz/image/upload/v1703356969/11aa95b8-b803-4e41-9d7f-724452136aad_swbpnu.png"
         />
       </Head>
       <main className="mx-auto max-w-[1960px] p-4">
