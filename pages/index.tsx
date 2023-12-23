@@ -48,11 +48,11 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
         <title>ENSIAS Moments</title>
         <meta
           property="og:image"
-          content="https://res.cloudinary.com/dozcs6owz/image/upload/v1703356969/11aa95b8-b803-4e41-9d7f-724452136aad_swbpnu.png"
+          content="https://res.cloudinary.com/dozcs6owz/image/upload/v1703358557/Untitled_design_3_bh6nrh.png"
         />
         <meta
           name="twitter:image"
-          content="https://res.cloudinary.com/dozcs6owz/image/upload/v1703356969/11aa95b8-b803-4e41-9d7f-724452136aad_swbpnu.png"
+          content="https://res.cloudinary.com/dozcs6owz/image/upload/v1703358557/Untitled_design_3_bh6nrh.png"
         />
       </Head>
       <main className="mx-auto max-w-[1960px] p-4">
