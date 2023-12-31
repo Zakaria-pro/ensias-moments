@@ -55,12 +55,12 @@ export default function SharedModal({
       }}
     >
       <div
-        className="relative z-50 flex aspect-[3/2] w-full max-w-7xl items-center wide:h-full xl:taller-than-854:h-auto"
+        className="relative z-50 flex aspect-[3/2] h-full w-full max-w-7xl items-center wide:h-full xl:taller-than-854:h-auto"
         {...handlers}
       >
         {/* Main image */}
         <div className="w-full overflow-hidden">
-          <div className="relative flex aspect-[3/2] items-center justify-center">
+          <div className="relative flex aspect-[1/2] items-center justify-center md:aspect-[3/2]">
             <AnimatePresence initial={false} custom={direction}>
               <motion.div
                 key={index}
@@ -70,6 +70,7 @@ export default function SharedModal({
                 animate="center"
                 exit="exit"
                 className="absolute"
+                style={{ height: "100%" }}
               >
                 <Image
                   src={`https://res.cloudinary.com/${
@@ -82,6 +83,7 @@ export default function SharedModal({
                   priority
                   alt="ENSIAS Moments image"
                   onLoad={() => setLoaded(true)}
+                  style={{ height: "100%", objectFit: "contain" }}
                 />
               </motion.div>
             </AnimatePresence>
@@ -92,7 +94,7 @@ export default function SharedModal({
         <div className="absolute inset-0 mx-auto flex max-w-7xl items-center justify-center">
           {/* Buttons */}
           {loaded && (
-            <div className="relative aspect-[3/2] max-h-full w-full">
+            <div className="relative aspect-[1/2] max-h-full w-full md:aspect-[3/2]">
               {navigation && (
                 <>
                   {index > 0 && (
