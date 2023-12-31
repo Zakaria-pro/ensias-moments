@@ -1,31 +1,62 @@
-# Next.js & Cloudinary example app
+# ENSIAS Moments
 
-This example shows how to create an image gallery site using Next.js, [Cloudinary](https://cloudinary.com), and [Tailwind](https://tailwindcss.com).
+Welcome to ENSIAS Moments, a collaborative project that captures and shares memorable moments from ENSIAS (École Nationale Supérieure d'Informatique et d'Analyse des Systèmes). This project is built with Next.js, allowing us to create a dynamic and engaging platform for our community.
 
-## Deploy your own
+![ENSIAS Moments](https://res.cloudinary.com/dozcs6owz/image/upload/v1703356969/11aa95b8-b803-4e41-9d7f-724452136aad_swbpnu.png)
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or view the demo [here](https://nextconf-images.vercel.app/)
+## Getting Started
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-cloudinary&project-name=nextjs-image-gallery&repository-name=with-cloudinary&env=NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME,CLOUDINARY_API_KEY,CLOUDINARY_API_SECRET,CLOUDINARY_FOLDER&envDescription=API%20Keys%20from%20Cloudinary%20needed%20to%20run%20this%20application.)
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example::
+### 1. Clone the Repository
 
 ```bash
- npx create-next-app --example with-cloudinary nextjs-image-gallery
+git clone https://github.com/your-username/ensias-moments.git
+cd ensias-moments
 ```
+
+### 2. Install Dependencies
+
+Make sure you have Node.js and npm installed on your machine. Then, install the project dependencies:
 
 ```bash
-yarn create next-app --example with-cloudinary nextjs-image-gallery
+npm install
 ```
+
+### 3. Contact the Project Owner
+
+To run the project successfully, you'll need secret environment variables. Please contact me at zhamedoun1@gmail.com or (facebook, whatsapp) to obtain the required information.
+
+### 4. Set Up Environment Variables
+
+Once you have the necessary information, create a .env.local file in the project root and add the following:
+
+```env
+NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=your-cloudinary-cloud-name
+CLOUDINARY_API_KEY=your-cloudinary-api-key
+CLOUDINARY_API_SECRET=your-cloudinary-api-secret
+CLOUDINARY_FOLDER=your-cloudinary-folder
+```
+
+Replace `your-cloudinary-cloud-name`, `your-cloudinary-api-key`, `your-cloudinary-api-secret`, and `your-cloudinary-folder` with the actual information provided by the project owner.
+
+### 5. Run the Project
+
+Now you're ready to run the project:
 
 ```bash
-pnpm create next-app --example with-cloudinary nextjs-image-gallery
+npm run dev
 ```
 
-## References
+Visit http://localhost:3000 in your browser to see ENSIAS Moments live!
 
-- Cloudinary API: https://cloudinary.com/documentation/transformation_reference
+### Contributing
+
+We welcome contributions from everyone, including those who are new to software engineering(9asdouni nichan)! Whether you're fixing a bug, improving the design, or adding new features, your help is valuable. Follow these steps to contribute:
+
+1. Fork the repository.
+2. Create a new branch for your changes: git checkout -b feature/new-feature.
+3. Make your changes and commit them: git commit -m "Add new feature".
+4. Push your changes to your fork: git push origin feature/new-feature.
+5. Open a pull request on the ENSIAS Moments repository.
+   Community
+
+Let's make ENSIAS Moments a memorable experience for everyone! 🎉
