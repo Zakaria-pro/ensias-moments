@@ -1,4 +1,5 @@
 import Document, { Head, Html, Main, NextScript } from "next/document";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 class MyDocument extends Document {
   render() {
@@ -26,6 +27,7 @@ class MyDocument extends Document {
         <body className="bg-black antialiased">
           <Main />
           <NextScript />
+          <SpeedInsights />
         </body>
       </Html>
     );
