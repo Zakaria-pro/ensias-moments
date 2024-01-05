@@ -1,6 +1,6 @@
 # ENSIAS Moments
 
-Welcome to ENSIAS Moments, a collaborative project that captures and shares memorable moments from ENSIAS (École Nationale Supérieure d'Informatique et d'Analyse des Systèmes). This project is built with Next.js, allowing us to create a dynamic and engaging platform for our community.
+Welcome to ENSIAS Moments✨, a collaborative project that captures and shares memorable moments from ENSIAS (École Nationale Supérieure d'Informatique et d'Analyse des Systèmes). This project is built with Next.js, allowing us to create a dynamic and engaging platform for our community.
 
 ![ENSIAS Moments](https://res.cloudinary.com/dozcs6owz/image/upload/v1703356969/11aa95b8-b803-4e41-9d7f-724452136aad_swbpnu.png)
 
